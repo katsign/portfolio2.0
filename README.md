@@ -10,7 +10,7 @@
 
 Hey, I'm Kat. 👋 A digitally-native digital creative.
 
-I'm a full-stack web developer with an emphasis on design, front-end UIs and simplified user experiences. This repo contains the source code for my web development portfolio built with React. View six recent projects I've created and contributed to alongside my contact info.
+I'm a full-stack web developer with an emphasis on design, front-end UIs and simplified user experiences. This repo contains the source code for my web development portfolio built with React. View six recent projects I've created and contributed to alongside my resume and contact info.
 
 ## *Featured Projects*
 
