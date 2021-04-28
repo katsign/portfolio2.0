@@ -3,6 +3,10 @@
 ![Favicon](./src/assets/images/favicon.ico)
 # Meet Kat Ruth | digitalNative, digitalCreative 🌞
 
+![Job Title Badge](https://img.shields.io/badge/Title-Full--Stack%20Web%20Developer-dda0dd) 
+![Main Language Badge](https://img.shields.io/badge/Language-JavaScript-daa520) 
+![Emphasis Badge](https://img.shields.io/badge/Emphasis-Front--End%20Design-dda0dd)
+
 #### 📍 [View Deployment on GitHub Pages](https://katsign.github.io/portfolio2.0/) 📍
 </div>
 
