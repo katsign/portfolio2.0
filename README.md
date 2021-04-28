@@ -1,6 +1,6 @@
 <div align="center">
 
-![Favicon](./favicon.ico)
+![Favicon](./src/assets/images/favicon.ico)
 # Meet Kat Ruth | digitalNative, digitalCreative 🌞
 
 #### 📍 [View Deployment on GitHub Pages](https://katsign.github.io/portfolio2.0/) 📍
@@ -16,11 +16,11 @@ I'm a full-stack web developer with an emphasis on design, front-end UIs and sim
 
 [Portfolio Preview](https://katsign.github.io/portfolio1.0/)           |  [devlr Developer Network](https://devlr.herokuapp.com/)
 :-------------------------:|:-------------------------:
-![Site Demo](./assets/images/ss_folio.PNG)  |  ![Site Demo](./assets/images/ss_dev.png)
+![Site Demo](./src/assets/images/ss_folio.PNG)  |  ![Site Demo](./src/assets/images/ss_dev.png)
 
 [Express Burger Log](https://katsign-gotta-eat.herokuapp.com/)           |   [PAIR Culinary Curation](https://brandyquinlan.github.io/PAIR/)
 :-------------------------:|:-------------------------:
-![Site Demo](./assets/images/ss_brgr.png)  |  ![Site Demo](./assets/images/ss_pair.png)
+![Site Demo](./src/assets/images/ss_brgr.png)  |  ![Site Demo](./src/assets/images/ss_pair.png)
 
 ## *Contact*
 🔗 Links in Bio @[katsign](https://github.com/katsign)
