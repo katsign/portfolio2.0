@@ -24,7 +24,7 @@ const Resume = () => (
       <tbody>
         <tr>
           <th scope="row">
-            <span className="material-icons thistle"></span>
+            <span className="material-icons thistle">timeline</span>
           </th>
           <td>Certificate in Full-Stack Web Development</td>
           <td>
@@ -40,7 +40,7 @@ const Resume = () => (
         </tr>
         <tr>
           <th scope="row">
-            <span className="material-icons thistle"></span>
+            <span className="material-icons thistle">camera_alt</span>
           </th>
           <td>Multimedia Freelance</td>
           <td>
@@ -56,7 +56,7 @@ const Resume = () => (
         </tr>
         <tr>
           <th scope="row">
-            <span className="material-icons thistle"></span>
+            <span className="material-icons thistle">wine_bar</span>
           </th>
           <td>Wine Production</td>
           <td>
@@ -72,7 +72,7 @@ const Resume = () => (
         </tr>
         <tr>
           <th scope="row">
-            <span className="material-icons thistle"></span>
+            <span className="material-icons thistle">ramen_dining</span>
           </th>
           <td>High Volume Service</td>
           <td>
@@ -88,7 +88,7 @@ const Resume = () => (
         </tr>
         <tr>
           <th scope="row">
-            <span className="material-icons thistle"></span>
+            <span className="material-icons thistle">web</span>
           </th>
           <td>Web Design 1.0</td>
           <td>
@@ -103,7 +103,7 @@ const Resume = () => (
         </tr>
         <tr>
           <th scope="row">
-            <span className="material-icons thistle"></span>
+            <span className="material-icons thistle">create</span>
           </th>
           <td>Journalism</td>
           <td>
