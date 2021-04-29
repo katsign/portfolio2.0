@@ -34,15 +34,15 @@ const About = () => (
         <span style={{ fontWeight: 400 }}> So let's build it.</span>
       </p>
     </div>
-    <div class="row">
-      <div class="col d-flex align-items-center justify-content-center">
-        <div class="badge badge-light p-2">HTML5 + CSS3</div>
-        <div class="badge badge-light p-2">SCSS</div>
-        <div class="badge badge-light p-2">Figma + Adobe CC</div>
-        <div class="badge badge-light p-2">JavaScript</div>
-        <div class="badge badge-light p-2">Node + Express</div>
-        <div class="badge badge-light p-2">MySQL + NoSQL</div>
-        <div class="badge badge-light p-2">React.js</div>
+    <div className="row">
+      <div className="col d-flex align-items-center justify-content-center">
+        <div className="badge badge-light p-2">HTML5 + CSS3</div>
+        <div className="badge badge-light p-2">SCSS</div>
+        <div className="badge badge-light p-2">Figma + Adobe CC</div>
+        <div className="badge badge-light p-2">JavaScript</div>
+        <div className="badge badge-light p-2">Node + Express</div>
+        <div className="badge badge-light p-2">MySQL + NoSQL</div>
+        <div className="badge badge-light p-2">React.js</div>
       </div>
     </div>
   </div>
