@@ -37,7 +37,7 @@ const Projects = () => (
       <ProjectCard
         link="https://katsign.github.io/devteam/"
         image={Devteam}
-        title="Devteam Profile Generator"
+        title="DevTeam Profile Generator"
         blurb="This Node.js command line application generates a styled HTML webpage containing your development team's contact info and professional roles."
         repo="https://github.com/katsign/devteam"
       />
@@ -54,7 +54,7 @@ const Projects = () => (
         link="https://katsign.github.io/react-user-directory/"
         image={Users}
         title="React User Directory"
-        blurb="This web app uses state management in React.js to allow a user to view, sort and filter through a directory of users called from the Random User Generator API."
+        blurb="This web app lets a user view, sort and filter through a directory of users from the Random User Generator API using state management in React."
         repo="https://github.com/katsign/react-user-directory"
       />
     </div>
