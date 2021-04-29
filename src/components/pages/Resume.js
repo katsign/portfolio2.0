@@ -29,7 +29,7 @@ const Resume = () => (
           <td>Certificate in Full-Stack Web Development</td>
           <td>
             Currently on track to graduate from a full-stack coding bootcamp in
-            May 2021.
+            May 2021. Polishing skills working with the MERN stack.
           </td>
           <td>
             <small>
@@ -44,12 +44,11 @@ const Resume = () => (
           </th>
           <td>Multimedia Freelance</td>
           <td>
-            For the past decade I've been taking freelance gigs to hone my array
-            of skills.
+            For the past decade I've been taking freelance gigs and internships to expand and sharpen my various skillsets. I started my first marketing internship when I was 17 at BNIM, a local architecture firm. 
           </td>
           <td>
             <small>
-              Photography<br></br>Adobe CC + Figma<br></br>Signage Design
+              Photography<br></br>Adobe CC + Figma<br></br>Signage
               <br></br>Branding
             </small>
           </td>
@@ -77,7 +76,7 @@ const Resume = () => (
           <td>High Volume Service</td>
           <td>
             I started in restaurant service when I was a teenager and continued
-            to take positions up until the lockdowns of Spring 2020.
+            to take positions up until the lockdowns of Spring 2020. My experience in the industry shaped me into the hard worker I am today.
           </td>
           <td>
             <small>
@@ -93,11 +92,11 @@ const Resume = () => (
           <td>Web Design 1.0</td>
           <td>
             In 2014 and '15 I worked as the head designer for a self-owned
-            front-end web development company (sadly, it is now defunct).
+            front-end web development company (sadly, it is now defunct). We focused on branding for clients and search engine optimization.
           </td>
           <td>
             <small>
-              Adobe Muse<br></br>Banner Ads<br></br>Hosting<br></br>PCC/SEO
+              Adobe Muse<br></br>Banner Ads<br></br>Hosting<br></br>PPC/SEO
             </small>
           </td>
         </tr>
@@ -107,9 +106,9 @@ const Resume = () => (
           </th>
           <td>Journalism</td>
           <td>
-            In high school and a stint of college (The University of
+            In high school and for a year of college (The University of
             Nebraska-Lincoln), I worked in news and editorial journalism,
-            winning national awards and a travel grant to São Paulo, Brazil.
+            winning national awards and a travel grant to São Paulo, Brazil. I interned with Hear Nebraska, a local music journalism site and shot photos for the Daily Nebraskan.
           </td>
           <td>
             <small>
