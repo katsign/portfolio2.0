@@ -9,7 +9,7 @@ import IMG6 from '../../assets/images/journal/journal6.jpg';
 
 const Journal = () => (
   <div className="mt-4">
-    <h2>Visual Journal</h2>
+    <h2>Visual Journal <span style={{color: 'thistle'}}>Spring 2021</span></h2>
     <hr></hr>
     <div className="d-flex flex-row justify-content-around mb-4">
       <JournalImage image={IMG3} /> <JournalImage image={IMG5} />
