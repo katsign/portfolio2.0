@@ -64,11 +64,6 @@ hr {
   flex-wrap: wrap;
 }
 
-.journal {
-  margin: 0.25rem;
-  justify-content: center;
-}
-
 /* Btn Styles Blob */
 .btn-primary {
   color: white;
