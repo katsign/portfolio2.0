@@ -1,15 +1,18 @@
-import React from "react";
+import React from 'react';
+import JournalImage from '../JournalImage';
+import IMG1 from '../../assets/images/journal/journal1.jpg';
+import IMG2 from '../../assets/images/journal/journal3.jpg';
+import IMG3 from '../../assets/images/journal/journal4.jpg';
+import IMG4 from '../../assets/images/journal/journal6.jpg';
 
 const Journal = () => (
   <div className="mt-4">
-    <h1>Journal</h1>
-    <p>
-      Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui mauris,
-      ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus porta. Nam
-      quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-      imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed rhoncus mollis
-      diam, sit amet facilisis lectus blandit at.
-    </p>
+    <h2>Visual Journal</h2>
+    <hr></hr>
+    <div className="d-flex flex-row justify-content-around">
+      <JournalImage image={IMG1} /> <JournalImage image={IMG2} />
+      <JournalImage image={IMG4} /> <JournalImage image={IMG3} />
+    </div>
   </div>
 );
 
