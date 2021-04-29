@@ -1,0 +1,21 @@
+body {
+  background-color: transparent;
+}
+
+html {
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background: linear-gradient(45deg, #d8bfd88e, #d8bfd8, #fef9f5, #faf0e6);
+  background-size: 200%;
+  animation: gradient 8s linear infinite;
+  animation-direction: alternate;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
