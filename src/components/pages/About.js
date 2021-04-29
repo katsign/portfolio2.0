@@ -35,7 +35,7 @@ const About = () => (
       </p>
     </div>
     <div className="row">
-      <div className="col d-flex align-items-center justify-content-center">
+      <div className="col d-flex align-items-center justify-content-center mb-2">
         <div className="badge badge-light p-2">HTML5 + CSS3</div>
         <div className="badge badge-light p-2">SCSS</div>
         <div className="badge badge-light p-2">Figma + Adobe CC</div>
