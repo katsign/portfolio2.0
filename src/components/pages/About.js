@@ -2,14 +2,26 @@ import React from 'react';
 import Image from '../../assets/images/self.jpg';
 
 const About = () => (
-  <div className="mt-4">
-    <h2>About</h2>
+  <div className="mt-4" id="bio">
+    <div className="d-flex flex-row align-items-center justify-content-between">
+      <h2>About</h2>
+      <div className="btn-group" role="group">
+      <a
+        className="btn btn-primary"
+        href="mailto:mailtokatsign@gmail.com?subject=Development%20Inquiry"
+      >
+        Email Me
+      </a>
+      <a className="btn btn-primary" href="https://www.linkedin.com/in/katsigndev/">LinkedIn</a>
+      </div>
+    </div>
     <hr></hr>
     <div className="my-2" id="bioWrapper">
       <img
         width="260"
         className="float-right m-4 rounded"
         src={Image}
+        id="self"
         alt="Self portrait of Kat R. Buchanan, 27 years old, caucasian brunette."
       />
       <p className="lead mt-4">
