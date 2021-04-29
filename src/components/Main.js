@@ -1,4 +1,5 @@
 import Portfolio from "./PortfolioContainer"
+import Footer from "./Footer"
 
 const Main = () => {
     return (
@@ -6,6 +7,7 @@ const Main = () => {
             <div className="row">
                 <div className="col-sm-12">
                     <Portfolio />
+                    <Footer />
                 </div>
             </div>
         </div>
