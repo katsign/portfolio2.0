@@ -1,15 +1,63 @@
-import React from "react";
+import ProjectCard from '../ProjectCard';
+import Devlr from '../../assets/images/ss_dev.PNG';
+import PAIR from '../../assets/images/ss_pair.png';
+import Budget from '../../assets/images/ss_budget.PNG';
+import Devteam from '../../assets/images/ss_devteam.PNG';
+import Burger from '../../assets/images/ss_brgr.png';
+import Users from '../../assets/images/ss_users.PNG';
 
 const Projects = () => (
   <div className="mt-4">
-    <h1>Projects</h1>
-    <p>
-      Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui mauris,
-      ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus porta. Nam
-      quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-      imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed rhoncus mollis
-      diam, sit amet facilisis lectus blandit at.
-    </p>
+    <h2>Featured Projects</h2>
+    <hr></hr>
+    <div className="card-group mb-1">
+      <ProjectCard
+        link="https://devlr.herokuapp.com/"
+        image={Devlr}
+        title="devlr Developer Network"
+        blurb="Create a customized profile to display your development background, pinned projects and status updates to share with other developers worldwide."
+        repo="https://github.com/liztownd/devlr"
+      />
+      <ProjectCard
+        link="https://brandyquinlan.github.io/PAIR/"
+        image={PAIR}
+        title="PAIR Culinary Curation"
+        blurb="Pair is a dynamic and mobile-responsive web application that lets a user search for food and cocktail recipes from separate databases and curate the results in one place."
+        repo="https://github.com/brandyquinlan/PAIR"
+      />
+    </div>
+    <div className="card-group mb-1">
+      <ProjectCard
+        link="https://katsign-budget-tracker.herokuapp.com/"
+        image={Budget}
+        title="Progressive Budget Tracker"
+        blurb="This progressive web app uses MongoDB and IndexedDB to let a user add expenses and deposits to their budget on the go, with or without a connection."
+        repo="https://github.com/katsign/pwa-budget"
+      />
+      <ProjectCard
+        link="https://katsign.github.io/devteam/"
+        image={Devteam}
+        title="Devteam Profile Generator"
+        blurb="This Node.js command line application generates a styled HTML webpage containing your development team's contact info and professional roles."
+        repo="https://github.com/katsign/devteam"
+      />
+    </div>
+    <div className="card-group mb-1">
+      <ProjectCard
+        link="https://katsign-gotta-eat.herokuapp.com/"
+        image={Burger}
+        title="Express Burger Log"
+        blurb="This simple full-stack application uses Node.js, Express, a MySQL database and the templating engine Handlebars to display logs of newly-ordered and devoured burgers."
+        repo="https://github.com/katsign/gotta-eat"
+      />
+      <ProjectCard
+        link="https://katsign.github.io/react-user-directory/"
+        image={Users}
+        title="React User Directory"
+        blurb="This web app uses state management in React.js to allow a user to view, sort and filter through a directory of users called from the Random User Generator API."
+        repo="https://github.com/katsign/react-user-directory"
+      />
+    </div>
   </div>
 );
 
