@@ -1,9 +1,5 @@
-function App() {
-  return (
-    <div>
-      <h4>Under Construction</h4>
-    </div>
-  );
-}
+import Main from "./components/Main";
+
+const App = () => <Main />
 
 export default App;
