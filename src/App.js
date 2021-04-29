@@ -1,5 +1,5 @@
-import Main from "./components/Main";
+import Gradient from './components/Gradient';
 
-const App = () => <Main />
+const App = () => <Gradient />;
 
 export default App;
