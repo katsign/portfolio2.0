@@ -1,14 +1,32 @@
 * {
+  box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
 
+body {
+  background-color: transparent;
+}
+
 .container {
+  max-width: 800px;
   margin-top: 3rem;
   margin-bottom: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.nav-link,
+.nav-link.active,
+.nav-item.show .nav-link {
+  background-color: transparent!important;
+  border-color: #141414!important;
+  margin-right: .25rem;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #141414;
 }
 
 .material-icons {
@@ -34,21 +52,16 @@ a:hover {
   color: plum;
 }
 
+hr {
+  background-color: #141414;
+}
+
 .jumbotron {
   background-color: rgba(216, 191, 216, 0.5558653846153846) !important;
 }
 
 .d-flex {
   flex-wrap: wrap;
-}
-
-.display-4 {
-  font-size: 50px;
-  text-align: center;
-}
-
-#imgWrapper {
-  display: inline-block;
 }
 
 .journal {
