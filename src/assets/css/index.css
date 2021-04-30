@@ -112,16 +112,21 @@ hr {
 @media (max-width: 640px) {
   #self {
     width: 100%;
-    float: none!important;
-    margin: auto!important;
+    float: none !important;
+    margin: auto !important;
   }
   .journal {
     width: 100%;
-    margin: auto!important;
+    margin: auto !important;
+  }
+  #bio,
+  #reso,
+  #journo,
+  #proj {
+    margin: 1rem;
   }
   #bio {
     text-align: center;
-    margin: 1rem;
   }
 }
 
