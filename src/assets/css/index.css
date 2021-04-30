@@ -114,28 +114,27 @@ hr {
 }
 
 @media screen and (max-width: 768px) {
+  /* Table Queries */
+  .table-responsive-stack tr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
 
-/* Table Queries */
-.table-responsive-stack tr {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-}
+  .table-responsive-stack td,
+  .table-responsive-stack th {
+    display: block;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+  }
 
-.table-responsive-stack td,
-.table-responsive-stack th {
-  display: block;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-}
-
-.table-responsive-stack .table-responsive-stack-thead {
-  font-weight: bold;
-}
+  .table-responsive-stack .table-responsive-stack-thead {
+    font-weight: bold;
+  }
 
   .table-responsive-stack tr {
     -webkit-box-orient: vertical;
@@ -152,7 +151,7 @@ hr {
   }
 }
 
-@media (max-width: 640px) {
+@media screen and (max-width: 640px) {
   #self {
     width: 100%;
     float: none !important;
@@ -162,7 +161,7 @@ hr {
     width: 100%;
     margin: auto !important;
   }
-  #logo{
+  #logo {
     margin-left: 1rem;
   }
   #bio,
@@ -176,7 +175,7 @@ hr {
   }
 }
 
-@media (max-width: 420px) {
+@media screen and (max-width: 420px) {
   h2 {
     font-size: 24px;
   }
@@ -184,8 +183,14 @@ hr {
   .nav-link.active,
   .nav-item.show .nav-link {
     margin-right: 2px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 22px;
-    padding: .75rem;
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 320px) { 
+  #bio {
+    max-width: 260px;
   }
 }

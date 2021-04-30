@@ -1,8 +1,7 @@
-import React from 'react';
 import Image from '../../assets/images/self.jpg';
 
 const About = () => (
-  <div className="mt-4">
+  <div className="mt-4" id="bio">
     <div className="d-flex flex-row align-items-center justify-content-between">
       <h2>About</h2>
       <div className="btn-group btn-group-sm mr-2" role="group">
@@ -33,7 +32,7 @@ const About = () => (
       </div>
     </div>
     <hr></hr>
-    <div id="bio">
+    <div>
     <img
         width="260"
         className="m-4 rounded float-right"
@@ -45,8 +44,8 @@ const About = () => (
         <span style={{ fontWeight: 400 }}>Meet</span> Kat Ruth Buchanan
         <span className="material-icons thistle">arrow_downward</span>
       </p>
-      <div className="badge badge-light p-2 mb-4">
-        Full-Stack Web Developer, emphasis on UI Design 🌞
+      <div className="badge badge-light text-center p-2 mb-4">
+        Full-Stack Web Dev, emphasis on UI Design 🌞
       </div>
       <p>Hey, I'm Kat. A digitally-native digital creative.</p>
       <p className="text-justify">
