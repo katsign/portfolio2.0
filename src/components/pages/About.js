@@ -1,35 +1,11 @@
 import Image from '../../assets/images/self.jpg';
+import ContactBtns from '../ContactBtns'
 
 const About = () => (
   <div className="mt-4" id="bio">
     <div className="d-flex flex-row align-items-center justify-content-between">
       <h2>About</h2>
-      <div className="btn-group btn-group-sm mr-2" role="group">
-        <a
-          rel="noreferrer"
-          target="_blank"
-          className="btn btn-primary"
-          href="mailto:mailtokatsign@gmail.com?subject=Development%20Inquiry"
-        >
-          Email Me
-        </a>
-        <a
-          rel="noreferrer"
-          target="_blank"
-          className="btn btn-primary"
-          href="https://www.linkedin.com/in/katsigndev/"
-        >
-          LinkedIn
-        </a>
-        <a
-          rel="noreferrer"
-          target="_blank"
-          className="btn btn-primary"
-          href="https://github.com/katsign"
-        >
-          GitHub
-        </a>
-      </div>
+     <ContactBtns />
     </div>
     <hr></hr>
     <div>
