@@ -183,9 +183,9 @@ hr {
   .nav-link.active,
   .nav-item.show .nav-link {
     margin-right: 2px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 22px;
-    padding: 0.5rem;
+    padding: 0.75rem;
   }
 }
 
