@@ -32,7 +32,7 @@ const Resume = () => (
       </div>
       </div>
     <hr></hr>
-    <table className="table mb-0">
+    <table className="table table-responsive-stack mb-0">
       <thead>
         <tr>
           <th>
