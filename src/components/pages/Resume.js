@@ -2,7 +2,27 @@ import React from 'react';
 
 const Resume = () => (
   <div className="mt-4">
-    <h2>Resume</h2>
+    <div className="d-flex flex-row align-items-center justify-content-between">
+      <h2>Resume</h2>
+      <div className="btn-group" role="group">
+        <a
+          rel="noreferrer"
+          target="_blank"
+          className="btn btn-primary"
+          href="mailto:mailtokatsign@gmail.com?subject=Development%20Inquiry"
+        >
+          Email Me
+        </a>
+        <a
+          rel="noreferrer"
+          target="_blank"
+          className="btn btn-primary"
+          href="https://www.linkedin.com/in/katsigndev/"
+        >
+          LinkedIn
+        </a>
+      </div>
+      </div>
     <hr></hr>
     <table className="table mb-0">
       <thead>

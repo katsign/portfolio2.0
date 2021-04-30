@@ -6,13 +6,22 @@ const About = () => (
     <div className="d-flex flex-row align-items-center justify-content-between">
       <h2>About</h2>
       <div className="btn-group" role="group">
-      <a
-        className="btn btn-primary"
-        href="mailto:mailtokatsign@gmail.com?subject=Development%20Inquiry"
-      >
-        Email Me
-      </a>
-      <a className="btn btn-primary" href="https://www.linkedin.com/in/katsigndev/">LinkedIn</a>
+        <a
+          rel="noreferrer"
+          target="_blank"
+          className="btn btn-primary"
+          href="mailto:mailtokatsign@gmail.com?subject=Development%20Inquiry"
+        >
+          Email Me
+        </a>
+        <a
+          rel="noreferrer"
+          target="_blank"
+          className="btn btn-primary"
+          href="https://www.linkedin.com/in/katsigndev/"
+        >
+          LinkedIn
+        </a>
       </div>
     </div>
     <hr></hr>
