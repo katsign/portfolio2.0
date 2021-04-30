@@ -109,28 +109,29 @@ hr {
   box-shadow: 0 0 0 0.2rem rgb(230, 176, 230);
 }
 
-@media (max-width: 580px) {
+@media (max-width: 640px) {
   #self {
-    width: 400px;
+    width: 100%;
+    float: none!important;
+    margin: auto!important;
+  }
+  .journal {
+    width: 100%;
+    margin: auto!important;
   }
   #bio {
     text-align: center;
-  }
-  h1 {
-    font-size: 36px;
+    margin: 1rem;
   }
 }
 
 @media (max-width: 420px) {
-  #self {
-    width: 340px;
-  }
-  h1 {
-    font-size: 28px;
+  h2 {
+    font-size: 24px;
   }
   .nav-link,
   .nav-link.active,
   .nav-item.show .nav-link {
-    margin-right: 0;
+    margin-right: 2px;
   }
 }
