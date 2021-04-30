@@ -5,7 +5,7 @@ const About = () => (
   <div className="mt-4" id="bio">
     <div className="d-flex flex-row align-items-center justify-content-between">
       <h2>About</h2>
-      <div className="btn-group" role="group">
+      <div className="btn-group btn-group-sm" role="group">
         <a
           rel="noreferrer"
           target="_blank"
@@ -22,13 +22,20 @@ const About = () => (
         >
           LinkedIn
         </a>
+        <a
+          rel="noreferrer"
+          target="_blank"
+          className="btn btn-primary"
+          href="https://github.com/katsign"
+        >
+          GitHub
+        </a>
       </div>
     </div>
     <hr></hr>
-    <div className="my-2" id="bioWrapper">
       <img
         width="260"
-        className="float-right m-4 rounded"
+        className="m-4 rounded float-right"
         src={Image}
         id="self"
         alt="Self portrait of Kat R. Buchanan, 27 years old, caucasian brunette."
@@ -54,9 +61,8 @@ const About = () => (
         old web and fiendishly longs for the new.
         <span style={{ fontWeight: 400 }}> So let's build it.</span>
       </p>
-    </div>
-    <div className="row">
-      <div className="col d-flex align-items-center justify-content-center mb-2">
+      <div className="row" style={{margin: 'auto'}}>
+      <div className="col d-flex align-items-center justify-content-center my-2">
         <div className="badge badge-light p-2">HTML5 + CSS3</div>
         <div className="badge badge-light p-2">SCSS</div>
         <div className="badge badge-light p-2">Figma + Adobe CC</div>
