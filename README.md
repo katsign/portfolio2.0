@@ -7,6 +7,8 @@
 ![Main Language Badge](https://img.shields.io/badge/Language-JavaScript-daa520) 
 ![Emphasis Badge](https://img.shields.io/badge/Emphasis-Front--End%20Design-dda0dd)
 
+![Lighthouse Scores](./src/assets/images/Lighthouse.PNG)
+
 #### 📍 [View Deployment on GitHub Pages](https://katsign.github.io/portfolio2.0/) 📍
 </div>
 
