@@ -3,7 +3,7 @@ const JournalImage = (props) => {
     <div>
       <img
       width="240"
-        className="rounded m-1"
+        className="rounded journal m-1"
         src={props.image}
         alt="Rotating Journal"
       />
