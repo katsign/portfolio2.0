@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Resume = () => (
-  <div className="mt-4">
+  <div className="mt-4" id="reso">
     <div className="d-flex flex-row align-items-center justify-content-between">
       <h2>Resume</h2>
       <div className="btn-group btn-group-sm mr-2" role="group">

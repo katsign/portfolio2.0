@@ -8,7 +8,7 @@ import IMG5 from '../../assets/images/journal/journal5.jpg';
 import IMG6 from '../../assets/images/journal/journal6.jpg';
 
 const Journal = () => (
-  <div className="mt-4">
+  <div className="mt-4" id="journo">
     <h2>Visual Journal <span style={{color: 'thistle'}}>Spring 2021</span></h2>
     <hr></hr>
     <div className="d-flex flex-row justify-content-around mb-2">

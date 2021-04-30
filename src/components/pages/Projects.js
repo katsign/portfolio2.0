@@ -7,7 +7,7 @@ import Burger from '../../assets/images/ss_brgr.png';
 import Users from '../../assets/images/ss_users.PNG';
 
 const Projects = () => (
-  <div className="mt-4">
+  <div className="mt-4" id="proj">
     <h2>Featured Projects</h2>
     <hr></hr>
     <div className="card-group mb-1">
