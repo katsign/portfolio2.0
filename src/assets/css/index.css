@@ -72,6 +72,10 @@ hr {
   flex-wrap: wrap;
 }
 
+#logo {
+  margin-bottom: 1rem;
+}
+
 /* Btn Styles Blob */
 .btn-primary {
   color: #141414;
