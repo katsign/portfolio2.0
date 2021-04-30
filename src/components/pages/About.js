@@ -33,7 +33,8 @@ const About = () => (
       </div>
     </div>
     <hr></hr>
-      <img
+    <div>
+    <img
         width="260"
         className="m-4 rounded float-right"
         src={Image}
@@ -71,6 +72,7 @@ const About = () => (
         <div className="badge badge-light p-2">MySQL + NoSQL</div>
         <div className="badge badge-light p-2">React.js</div>
       </div>
+    </div>
     </div>
   </div>
 );
