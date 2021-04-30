@@ -184,8 +184,8 @@ hr {
   .nav-link.active,
   .nav-item.show .nav-link {
     margin-right: 2px;
-  }
-  .nav-tabs {
-    margin-left: 2px;
+    font-size: 16px;
+    line-height: 22px;
+    padding: .75rem;
   }
 }
