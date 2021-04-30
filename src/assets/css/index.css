@@ -13,8 +13,9 @@ body {
   border-bottom: 2px solid thistle;
 }
 
-.table td, .table th {
-  padding: .75rem;
+.table td,
+.table th {
+  padding: 0.75rem;
   vertical-align: top;
   border-top: 2px solid thistle;
 }
@@ -31,9 +32,9 @@ body {
 .nav-link,
 .nav-link.active,
 .nav-item.show .nav-link {
-  background-color: transparent!important;
-  border-color: #141414!important;
-  margin-right: .25rem;
+  background-color: transparent !important;
+  border-color: #141414 !important;
+  margin-right: 0.25rem;
 }
 
 .nav-tabs {
@@ -67,155 +68,69 @@ hr {
   background-color: #141414;
 }
 
-.jumbotron {
-  background-color: rgba(216, 191, 216, 0.5558653846153846) !important;
-}
-
 .d-flex {
   flex-wrap: wrap;
 }
 
 /* Btn Styles Blob */
 .btn-primary {
-  color: white;
-  background-color: thistle;
-  border-color: thistle;
+  color: #141414;
+  background-color: transparent;
+  border-color: #141414;
 }
 .btn-primary:hover {
-  color: white;
-  background-color: plum;
-  border-color: plum;
+  color: plum;
+  background-color: transparent;
+  border-color: #141414;
 }
 .btn-primary:focus,
 .btn-primary.focus {
-  color: white;
-  background-color: plum;
-  border-color: plum;
-  box-shadow: 0 0 0 0.2rem rgba(189, 168, 190, 0.5);
+  color: plum;
+  background-color: transparent;
+  border-color: #141414;
+  box-shadow: 0 0 0 0.2rem rgb(230, 176, 230);
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
-  color: white;
-  background-color: thistle;
-  border-color: thistle;
+  color: #141414;
+  background-color: transparent;
+  border-color: #141414;
 }
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
-  color: white;
-  background-color: plum;
-  border-color: plum;
+  color: #141414;
+  background-color: transparent;
+  border-color: #141414;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(189, 168, 190, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(230, 176, 230);
 }
 
-.btn-secondary {
-  color: white;
-  background-color: pink;
-  border-color: pink;
-}
-.btn-secondary:hover {
-  color: white;
-  background-color: palevioletred;
-  border-color: palevioletred;
-}
-.btn-secondary:focus,
-.btn-secondary.focus {
-  color: white;
-  background-color: palevioletred;
-  border-color: palevioletred;
-  box-shadow: 0 0 0 0.2rem rgba(189, 168, 190, 0.5);
-}
-.btn-secondary.disabled,
-.btn-secondary:disabled {
-  color: white;
-  background-color: pink;
-  border-color: pink;
-}
-.btn-secondary:not(:disabled):not(.disabled):active,
-.btn-secondary:not(:disabled):not(.disabled).active,
-.show > .btn-secondary.dropdown-toggle {
-  color: white;
-  background-color: palevioletred;
-  border-color: palevioletred;
-}
-.btn-secondary:not(:disabled):not(.disabled):active:focus,
-.btn-secondary:not(:disabled):not(.disabled).active:focus,
-.show > .btn-secondary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(189, 168, 190, 0.5);
+@media (max-width: 580px) {
+  #self {
+    width: 400px;
+  }
+  #bio {
+    text-align: center;
+  }
+  h1 {
+    font-size: 36px;
+  }
 }
 
-.btn-light {
-  color: white;
-  background-color: moccasin;
-  border-color: moccasin;
-}
-.btn-light:hover {
-  color: white;
-  background-color: peachpuff;
-  border-color: peachpuff;
-}
-.btn-light:focus,
-.btn-light.focus {
-  color: white;
-  background-color: peachpuff;
-  border-color: peachpuff;
-  box-shadow: 0 0 0 0.2rem rgba(189, 168, 190, 0.5);
-}
-.btn-light.disabled,
-.btn-light:disabled {
-  color: white;
-  background-color: moccasin;
-  border-color: moccasin;
-}
-.btn-light:not(:disabled):not(.disabled):active,
-.btn-light:not(:disabled):not(.disabled).active,
-.show > .btn-light.dropdown-toggle {
-  color: white;
-  background-color: peachpuff;
-  border-color: peachpuff;
-}
-.btn-light:not(:disabled):not(.disabled):active:focus,
-.btn-light:not(:disabled):not(.disabled).active:focus,
-.show > .btn-light.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(189, 168, 190, 0.5);
-}
-
-.btn-dark {
-  color: white;
-  background-color: #f1c3b1;
-  border-color: #f1c3b1;
-}
-.btn-dark:hover {
-  color: white;
-  background-color: darksalmon;
-  border-color: darksalmon;
-}
-.btn-dark:focus,
-.btn-dark.focus {
-  color: white;
-  background-color: darksalmon;
-  border-color: darksalmon;
-  box-shadow: 0 0 0 0.2rem rgba(189, 168, 190, 0.5);
-}
-.btn-dark.disabled,
-.btn-dark:disabled {
-  color: white;
-  background-color: #f1c3b1;
-  border-color: #f1c3b1;
-}
-.btn-dark:not(:disabled):not(.disabled):active,
-.btn-dark:not(:disabled):not(.disabled).active,
-.show > .btn-dark.dropdown-toggle {
-  color: white;
-  background-color: darksalmon;
-  border-color: darksalmon;
-}
-.btn-dark:not(:disabled):not(.disabled):active:focus,
-.btn-dark:not(:disabled):not(.disabled).active:focus,
-.show > .btn-dark.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(189, 168, 190, 0.5);
+@media (max-width: 420px) {
+  #self {
+    width: 340px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  .nav-link,
+  .nav-link.active,
+  .nav-item.show .nav-link {
+    margin-right: 0;
+  }
 }
