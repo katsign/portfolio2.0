@@ -5,7 +5,7 @@ const About = () => (
   <div className="mt-4" id="bio">
     <div className="d-flex flex-row align-items-center justify-content-between">
       <h2>About</h2>
-      <div className="btn-group btn-group-sm" role="group">
+      <div className="btn-group btn-group-sm mr-2" role="group">
         <a
           rel="noreferrer"
           target="_blank"
