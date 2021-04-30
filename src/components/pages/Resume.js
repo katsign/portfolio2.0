@@ -4,7 +4,7 @@ const Resume = () => (
   <div className="mt-4">
     <div className="d-flex flex-row align-items-center justify-content-between">
       <h2>Resume</h2>
-      <div className="btn-group" role="group">
+      <div className="btn-group btn-group-sm mr-2" role="group">
         <a
           rel="noreferrer"
           target="_blank"
@@ -20,6 +20,14 @@ const Resume = () => (
           href="https://www.linkedin.com/in/katsigndev/"
         >
           LinkedIn
+        </a>
+        <a
+          rel="noreferrer"
+          target="_blank"
+          className="btn btn-primary"
+          href="https://github.com/katsign"
+        >
+          GitHub
         </a>
       </div>
       </div>
