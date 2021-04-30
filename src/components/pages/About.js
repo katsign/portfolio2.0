@@ -2,7 +2,7 @@ import React from 'react';
 import Image from '../../assets/images/self.jpg';
 
 const About = () => (
-  <div className="mt-4" id="bio">
+  <div className="mt-4">
     <div className="d-flex flex-row align-items-center justify-content-between">
       <h2>About</h2>
       <div className="btn-group btn-group-sm mr-2" role="group">
@@ -33,7 +33,7 @@ const About = () => (
       </div>
     </div>
     <hr></hr>
-    <div>
+    <div id="bio">
     <img
         width="260"
         className="m-4 rounded float-right"

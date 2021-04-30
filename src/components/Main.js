@@ -5,7 +5,7 @@ import Footer from "./Footer"
 const Main = () => {
     return (
         <div className="container">
-            <div className="row">
+            <div className="row" style={{margin: 'auto'}}>
                 <div className="col-xs-12">
                     <Header />
                     <Portfolio />
