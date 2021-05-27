@@ -12,11 +12,11 @@ const Projects = () => (
     <hr></hr>
     <div className="card-group mb-1">
       <ProjectCard
-        link="https://devlr.herokuapp.com/"
+        link="https://devlrapp.herokuapp.com/"
         image={Devlr}
         title="devlr Developer Network"
         blurb="Create a customized profile to display your development background, pinned projects and status updates to share with other developers worldwide."
-        repo="https://github.com/liztownd/devlr"
+        repo="https://github.com/brandyquinlan/devlr"
       />
       <ProjectCard
         link="https://brandyquinlan.github.io/PAIR/"
