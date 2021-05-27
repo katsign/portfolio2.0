@@ -5,7 +5,7 @@ const Resume = () => (
     <div className="d-flex flex-row align-items-center justify-content-between">
       <h2>Resume</h2>
       <ContactBtns />
-      </div>
+    </div>
     <hr></hr>
     <table className="table table-responsive-stack mb-0">
       <thead>
@@ -31,8 +31,8 @@ const Resume = () => (
           </th>
           <td>Certificate in Full-Stack Web Development</td>
           <td>
-            Currently on track to graduate from a full-stack coding bootcamp in
-            May 2021. Polishing skills working with the MERN stack.
+            Graduated with an A+ average from The University of Kansas's
+            full-stack coding bootcamp in May 2021.
           </td>
           <td>
             <small>
@@ -47,7 +47,10 @@ const Resume = () => (
           </th>
           <td>Multimedia Freelance</td>
           <td>
-            For the past decade I've been taking freelance gigs and internships to expand and sharpen my various skillsets. I started my first marketing internship when I was 17 at BNIM, a local architecture firm. 
+            For the past decade I've been taking freelance gigs and internships
+            to expand and sharpen my various skillsets. I started my first
+            marketing internship when I was 17 at BNIM, a local architecture
+            firm.
           </td>
           <td>
             <small>
@@ -79,7 +82,9 @@ const Resume = () => (
           <td>High Volume Service</td>
           <td>
             I started in restaurant service when I was a teenager and continued
-            to take positions up until the lockdowns of Spring 2020. My experience in the industry shaped me into the hard worker I am today.
+            to take positions up until the lockdowns of Spring 2020. My
+            experience in the industry shaped me into the hard worker I am
+            today.
           </td>
           <td>
             <small>
@@ -95,7 +100,8 @@ const Resume = () => (
           <td>Web Design 1.0</td>
           <td>
             In 2014 and '15 I worked as the head designer for a self-owned
-            front-end web development company (sadly, it is now defunct). We focused on branding for clients and search engine optimization.
+            front-end web development company (sadly, it is now defunct). We
+            focused on branding for clients and search engine optimization.
           </td>
           <td>
             <small>
@@ -111,7 +117,9 @@ const Resume = () => (
           <td>
             In high school and for a year of college (The University of
             Nebraska-Lincoln), I worked in news and editorial journalism,
-            winning national awards and a travel grant to São Paulo, Brazil. I interned with Hear Nebraska, a local music journalism site and shot photos for the Daily Nebraskan.
+            winning national awards and a travel grant to São Paulo, Brazil. I
+            interned with Hear Nebraska, a local music journalism site and shot
+            photos for the Daily Nebraskan.
           </td>
           <td>
             <small>
