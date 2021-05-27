@@ -20,7 +20,7 @@ I'm a full-stack web developer with an emphasis on design, front-end UIs and sim
 
 ## *Featured Projects*
 
-[React User Directory](https://katsign.github.io/react-user-directory/)           |  [devlr Developer Network](https://devlr.herokuapp.com/)
+[React User Directory](https://katsign.github.io/react-user-directory/)           |  [devlr Developer Network](https://devlrapp.herokuapp.com/)
 :-------------------------:|:-------------------------:
 ![Site Demo](./src/assets/images/ss_users.PNG)  |  ![Site Demo](./src/assets/images/ss_dev.png)
 
