@@ -30,11 +30,14 @@ body {
 }
 
 .nav-link,
-.nav-link.active,
 .nav-item.show .nav-link {
   background-color: transparent !important;
   border-color: #141414 !important;
   margin-right: 0.25rem;
+}
+
+.nav-link.active {
+  background-color: rgb(221, 160, 221, 0.2) !important;
 }
 
 .nav-tabs {
