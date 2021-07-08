@@ -1,15 +1,15 @@
 import Image from '../../assets/images/self.jpg';
-import ContactBtns from '../ContactBtns'
+import ContactBtns from '../ContactBtns';
 
 const About = () => (
   <div className="mt-4" id="bio">
     <div className="d-flex flex-row align-items-center justify-content-between">
       <h2>About</h2>
-     <ContactBtns />
+      <ContactBtns />
     </div>
     <hr></hr>
     <div>
-    <img
+      <img
         width="260"
         className="m-4 rounded float-right"
         src={Image}
@@ -21,15 +21,15 @@ const About = () => (
         <span className="material-icons thistle">arrow_downward</span>
       </p>
       <div className="badge badge-light text-center p-2 mb-4">
-        Full-Stack Web Dev, emphasis on UI Design 🌞
+        Multimedia Designer + Front-End Web Dev 🌞
       </div>
-      <p>Hey, I'm Kat. A digitally-native digital creative.</p>
+      <p>Hey! I'm Kat. A digitally-native digital creative.</p>
       <p className="text-justify">
-        I'm a full-stack web developer with an emphasis on design, front-end UIs
-        and simplified user experiences. I've worked for a decade in different
-        fields, soaking up experiences — from stomping grapes during the
-        California harvest to interviewing indie musicians backstage; from
-        designing a homestyle Italian cookbook to documenting life in the
+        I'm a multimedia designer and front-end web developer with an emphasis
+        on UI design and simplified user experiences. I've worked for a decade
+        in different fields, soaking up experiences — from stomping grapes
+        during the California harvest to interviewing indie musicians backstage;
+        from designing a homestyle Italian cookbook to documenting life in the
         southern Brazilian jungle. I got my start in journalism and taught
         myself the real elements of style from there. Coming from this rich and
         varied background, I'm stoked to see what I can do as a fresh eye in
@@ -37,17 +37,17 @@ const About = () => (
         old web and fiendishly longs for the new.
         <span style={{ fontWeight: 400 }}> So let's build it.</span>
       </p>
-      <div className="row" style={{margin: 'auto'}}>
-      <div className="col d-flex align-items-center justify-content-center my-2">
-        <div className="badge badge-light p-2">HTML5 + CSS3</div>
-        <div className="badge badge-light p-2">SCSS</div>
-        <div className="badge badge-light p-2">Figma + Adobe CC</div>
-        <div className="badge badge-light p-2">JavaScript</div>
-        <div className="badge badge-light p-2">Node + Express</div>
-        <div className="badge badge-light p-2">MySQL + NoSQL</div>
-        <div className="badge badge-light p-2">React.js</div>
+      <div className="row" style={{ margin: 'auto' }}>
+        <div className="col d-flex align-items-center justify-content-center my-2">
+          <div className="badge badge-light p-2">HTML5 + CSS3</div>
+          <div className="badge badge-light p-2">SCSS</div>
+          <div className="badge badge-light p-2">Figma + Adobe CC</div>
+          <div className="badge badge-light p-2">JavaScript</div>
+          <div className="badge badge-light p-2">Node + Express</div>
+          <div className="badge badge-light p-2">MySQL + NoSQL</div>
+          <div className="badge badge-light p-2">React.js</div>
+        </div>
       </div>
-    </div>
     </div>
   </div>
 );
