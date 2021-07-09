@@ -37,6 +37,8 @@ body {
 }
 
 .nav-link.active {
+  color: #141414 !important;
+  border: 1px solid #141414;
   background-color: rgb(221, 160, 221, 0.2) !important;
 }
 
