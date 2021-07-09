@@ -211,6 +211,9 @@ hr {
 }
 
 @media screen and (max-width: 320px) {
+  h2 {
+    font-size: 20px;
+  }
   .nav-link,
   .nav-link.active,
   .nav-item.show .nav-link {
