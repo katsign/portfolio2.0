@@ -79,6 +79,21 @@ hr {
   margin-bottom: 1rem;
 }
 
+/* Width */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: thistle;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: plum;
+}
+
 /* Btn Styles Blob */
 .btn-primary {
   color: #141414;
@@ -176,6 +191,9 @@ hr {
   #bio {
     text-align: center;
   }
+  nav.nav-pills {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 420px) {
@@ -192,7 +210,15 @@ hr {
   }
 }
 
-@media screen and (max-width: 320px) { 
+@media screen and (max-width: 320px) {
+  .nav-link,
+  .nav-link.active,
+  .nav-item.show .nav-link {
+    margin-right: 2px;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0.6rem;
+  }
   #bio {
     max-width: 260px;
   }
