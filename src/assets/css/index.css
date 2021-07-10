@@ -133,6 +133,13 @@ hr {
   box-shadow: 0 0 0 0.2rem rgb(230, 176, 230);
 }
 
+@media screen and (max-width: 788px) {
+  .gallery {
+    width: 100%;
+    margin: auto !important;
+  }
+}
+
 @media screen and (max-width: 768px) {
   /* Table Queries */
   .table-responsive-stack tr {
@@ -177,7 +184,8 @@ hr {
     float: none !important;
     margin: auto !important;
   }
-  .journal {
+  .journal,
+  .gallery {
     width: 100%;
     margin: auto !important;
   }
