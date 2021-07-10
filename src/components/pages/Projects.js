@@ -21,9 +21,6 @@ const Projects = () => (
           <hr />
           <Photo />
         </Tab>
-        <Tab eventKey="published" title="Published">
-          <hr />
-        </Tab>
       </Tabs>
     </div>
   </div>
