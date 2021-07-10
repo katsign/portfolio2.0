@@ -25,16 +25,17 @@ const About = () => (
       </div>
       <p>Hey! I'm Kat. A digitally-native digital creative.</p>
       <p className="text-justify">
-        I'm a multimedia designer and front-end web developer with an emphasis
-        on UI design and simplified user experiences. I've worked for a decade
-        in different fields, soaking up experiences — from stomping grapes
-        during the California harvest to interviewing indie musicians backstage;
-        from designing a homestyle Italian cookbook to documenting life in the
-        southern Brazilian jungle. I got my start in journalism and taught
-        myself the real elements of style from there. Coming from this rich and
-        varied background, I'm stoked to see what I can do as a fresh eye in
-        tech. I'm really just a curious young millennial who fondly recalls the
-        old web and fiendishly longs for the new.
+        I'm a Kansas City based multimedia designer and front-end web developer
+        specializing in UI design and simplified user experiences. I've worked
+        for a decade in different fields, soaking up experiences — from stomping
+        grapes during the California harvest to interviewing indie musicians
+        backstage; from designing a homestyle Italian cookbook to documenting
+        life in the southern Brazilian jungle. Coming from this rich and varied
+        background, I'm stoked to see what I can do as a fresh eye in tech. This
+        portfolio showcases my recent professional and personal work that I
+        look forward to expanding with new creative opportunities. <br /><br />I'm
+        really just a curious young millennial who fondly recalls the old web
+        and longs for the new.
         <span style={{ fontWeight: 400 }}> So let's build it.</span>
       </p>
       <div className="row" style={{ margin: 'auto' }}>
