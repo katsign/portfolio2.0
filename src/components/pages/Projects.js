@@ -1,6 +1,7 @@
 import { Tabs, Tab } from 'react-bootstrap';
 import WebDev from '../feeds/WebDev';
 import Photo from '../feeds/Photo';
+import Graphics from '../feeds/Graphics';
 
 const Projects = () => (
   <div className="mt-4" id="proj">
@@ -14,6 +15,7 @@ const Projects = () => (
         </Tab>
         <Tab eventKey="graphics" title="Graphic Design">
           <hr />
+          <Graphics />
         </Tab>
         <Tab eventKey="photo" title="Photography">
           <hr />
