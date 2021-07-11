@@ -48,9 +48,9 @@ const Resume = () => (
           <td>Multimedia Freelance</td>
           <td>
             For the past decade I've been taking freelance gigs and internships
-            to expand and sharpen my various skillsets. I started my first
-            marketing internship when I was 17 at BNIM, a local architecture
-            firm.
+            to expand and sharpen my various skillsets. I completed my first
+            marketing internship when I was 17 at BNIM, a KC-based international
+            architecture firm.
           </td>
           <td>
             <small>
@@ -100,8 +100,8 @@ const Resume = () => (
           <td>Web Design 1.0</td>
           <td>
             In 2014 and '15 I worked as the head designer for a self-owned
-            front-end web development company (sadly, it is now defunct). We
-            focused on branding for clients and search engine optimization.
+            front-end web development and design company. We focused on branding
+            for clients and search engine optimization.
           </td>
           <td>
             <small>
@@ -117,7 +117,7 @@ const Resume = () => (
           <td>
             In high school and for a year of college (The University of
             Nebraska-Lincoln), I worked in news and editorial journalism,
-            winning national awards and a travel grant to São Paulo, Brazil. I
+            winning 13 national awards and a travel grant to São Paulo, Brazil. I
             interned with Hear Nebraska, a local music journalism site and shot
             photos for the Daily Nebraskan.
           </td>
