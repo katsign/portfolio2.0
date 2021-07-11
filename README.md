@@ -3,9 +3,9 @@
 ![Favicon](./src/assets/images/favicon.ico)
 # Meet Kat Ruth | digitalNative, digitalCreative 🌞
 
-![Job Title Badge](https://img.shields.io/badge/Title-Full--Stack%20Web%20Developer-dda0dd) 
+![Job Title Badge](https://img.shields.io/badge/Title-Front--End%20Web%20Developer-dda0dd) 
 ![Main Language Badge](https://img.shields.io/badge/Language-JavaScript-daa520) 
-![Emphasis Badge](https://img.shields.io/badge/Emphasis-Front--End%20Design-dda0dd)
+![Emphasis Badge](https://img.shields.io/badge/Emphasis-UI%20Design-dda0dd)
 
 ![Lighthouse Scores](./src/assets/images/Lighthouse.PNG)
 
@@ -16,7 +16,7 @@
 
 Hey, I'm Kat. 👋 A digitally-native digital creative.
 
-I'm a full-stack web developer with an emphasis on design, front-end UIs and simplified user experiences. This repo contains the source code for my web development portfolio built with React. View six recent projects I've created and contributed to alongside my resume and contact info.
+I'm a multimedia designer and front-end web developer specializing in UI design and simplified user experiences. This repo contains the source code for my portfolio built with React. View recent projects I've created and contributed to alongside my resume and contact info.
 
 ## *Featured Projects*
 
