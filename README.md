@@ -9,7 +9,7 @@
 
 ![Lighthouse Scores](./src/assets/images/Lighthouse.PNG)
 
-#### 📍 [View Deployment on GitHub Pages](https://katsign.github.io/portfolio2.0/) 📍
+#### 📍 [View Deployment](https://katruth.info) 📍
 </div>
 
 ## *Description*
