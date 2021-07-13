@@ -19,6 +19,11 @@ import G9 from '../../assets/images/graphics/d_graphic9.png';
 import G10 from '../../assets/images/graphics/d_graphic10.png';
 import G11 from '../../assets/images/graphics/d_graphic11.png';
 import G12 from '../../assets/images/graphics/d_graphic12.png';
+import WF1 from '../../assets/images/graphics/wf_1.png';
+import WF2 from '../../assets/images/graphics/wf_2.png';
+import WF4 from '../../assets/images/graphics/wf_4.jpg';
+import WF5 from '../../assets/images/graphics/wf_5.jpg';
+
 
 const Graphics = () => {
   return (
@@ -31,6 +36,18 @@ const Graphics = () => {
         <hr />
         <div className="d-flex flex-row justify-content-around mb-2">
           <Graphic image={T1} /> <Graphic image={T2} /> <Graphic image={T3} />
+        </div>
+      </section>
+      <section id="wireframes">
+        <hr />
+        <h4>
+          Wireframes{' '}
+          <span style={{ color: 'plum' }}>Figma</span>
+        </h4>
+        <hr />
+        <div className="d-flex flex-row justify-content-around mb-2">
+          <Image image={WF1} /> <Image image={WF2} />
+          <Image image={WF5} /> <Image image={WF4} />
         </div>
       </section>
       <section id="graphics">
@@ -57,7 +74,7 @@ const Graphics = () => {
         <hr />
         <div className="d-flex flex-row justify-content-around mb-2">
           <Image image={L1} /> <Image image={L2} />
-          <Image image={L3} /> <Image image={L4} />
+          <Image image={L4} /> <Graphic image={L3} />
         </div>
       </section>
     </div>
