@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.cad69aa3.chunk.css",
-    "main.js": "/static/js/main.e90de900.chunk.js",
-    "main.js.map": "/static/js/main.e90de900.chunk.js.map",
+    "main.js": "/static/js/main.0a2f3fef.chunk.js",
+    "main.js.map": "/static/js/main.0a2f3fef.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d0605945.js",
     "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
     "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
@@ -33,7 +33,8 @@
     "static/media/d_graphic8.9d1cdfd8.png": "/static/media/d_graphic8.9d1cdfd8.png",
     "static/media/d_graphic9.d9229b06.png": "/static/media/d_graphic9.d9229b06.png",
     "static/media/d_logo1.247274b5.png": "/static/media/d_logo1.247274b5.png",
-    "static/media/d_logo2.46028131.png": "/static/media/d_logo2.46028131.png",
+    "static/media/d_logo2.205389ca.png": "/static/media/d_logo2.205389ca.png",
+    "static/media/d_logo3.0b7550d2.png": "/static/media/d_logo3.0b7550d2.png",
     "static/media/d_logo4.746a5c27.png": "/static/media/d_logo4.746a5c27.png",
     "static/media/d_type1.64776553.JPG": "/static/media/d_type1.64776553.JPG",
     "static/media/d_type2.f3537c94.JPG": "/static/media/d_type2.f3537c94.JPG",
@@ -79,13 +80,17 @@
     "static/media/wedding_1.c5f42d41.jpg": "/static/media/wedding_1.c5f42d41.jpg",
     "static/media/wedding_2.4bfb7587.jpg": "/static/media/wedding_2.4bfb7587.jpg",
     "static/media/wedding_3.67d517c4.jpg": "/static/media/wedding_3.67d517c4.jpg",
-    "static/media/wedding_4.0fcb7dc3.jpg": "/static/media/wedding_4.0fcb7dc3.jpg"
+    "static/media/wedding_4.0fcb7dc3.jpg": "/static/media/wedding_4.0fcb7dc3.jpg",
+    "static/media/wf_1.9fb0241b.png": "/static/media/wf_1.9fb0241b.png",
+    "static/media/wf_2.ed48bf73.png": "/static/media/wf_2.ed48bf73.png",
+    "static/media/wf_4.ffffeabc.jpg": "/static/media/wf_4.ffffeabc.jpg",
+    "static/media/wf_5.72c67629.jpg": "/static/media/wf_5.72c67629.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d0605945.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.d97c4988.chunk.js",
     "static/css/main.cad69aa3.chunk.css",
-    "static/js/main.e90de900.chunk.js"
+    "static/js/main.0a2f3fef.chunk.js"
   ]
 }
